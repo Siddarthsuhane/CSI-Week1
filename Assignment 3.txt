@@ -1,0 +1,14 @@
+#!/bin/bash
+# Navigate to home directory 
+cd 
+
+# List contents of directory 
+ls -l directory_name 
+
+# Create and navigate through directory 
+mkdir -p siddarth
+cd siddarth
+
+# Create a file and list its contents 
+echo "this is good" > text.txt
+cat text.txt
